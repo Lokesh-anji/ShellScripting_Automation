@@ -6,6 +6,7 @@ curl -X PUT -u "your_atlassian_jira_username:your_atlassian_jira_token" --data '
 done 
 
 
+https://lokesh-anji.atlassian.net/rest/api/2/issue/LA-2
 
 curl -X PUT -u "lokeshanji1994@gmail.com:Token" --data '{"update":{"labels":[{"add":"DEMO_NEW1"}]}}' -H "Content-Type: application/json" https://lokesh-anji.atlassian.net/rest/api/2/issue/LA-1
 
